@@ -62,9 +62,9 @@ html {
     text-decoration: none;
     color: #fff;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: .625em;
     transition: .5s;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .social-media a:hover {
@@ -83,28 +83,28 @@ html {
 }
 
 .welcome {
-    font-size: 25px;
-    margin-left: 20px;
+    font-size: 1.6rem;
+    margin-left: 1.25em;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: .4px;
 }
 
 .presentation h2 {
-    font-size: 46px;
-    margin-bottom: 25px;
+    font-size: 3rem;
+    margin-bottom: 1em;
     text-align: center;
 }
 
 .presentation h2 span {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: salmon;
 }
 
 .presentation a {
     text-decoration: none;
     display: inline-block;
-    margin: 25px;
-    padding: 20px 25px;
+    margin: 1.6em;
+    padding: 1.3em 1.6em;
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
@@ -134,23 +134,23 @@ html {
 
 .photo-container {
     max-width: 60vw;
-    margin-right: 80px;
+    margin-right: 5em;
     margin-left: 0rem;
 }
 
 .photo-container img {
-    padding: 20px;
+    padding: 1.25em;
     width: 40vw;
-    border-radius: 20px;
+    border-radius: 1.25em;
     background-color: #f3f3f3;
 }
 
 .my-description {
-    margin: 0 40px;
+    margin: 0 2.5em;
 }
 
 .section-title {
-    font-size: 25px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -159,10 +159,10 @@ html {
 }
 
 .my-description h2 {
-    font-size: 34px;
+    font-size: 2.1rem;
     font-weight: bold;
-    margin: 20px 0;
-    letter-spacing: 2px;
+    margin: 1.2em 0;
+    letter-spacing: .2rem;
 }
 
 .my-description h2 span {
@@ -170,31 +170,31 @@ html {
 }
 
 .my-description h3 {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
+    margin-bottom: 1.2em;
+    letter-spacing: .2rem;
 }
 
 .section-description {
-    font-size: 18px;
+    font-size: 1.15rem;
     font-weight: 600;
-    line-height: 25px;
+    line-height: 1.6em;
     color: #565656;
-    margin-bottom: 12px;
+    margin-bottom: .75em;
 }
 
 .link-cv {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 800;
     display: inline-block;
     text-decoration: none;
     color: #000;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: .7em 1.3em;
     border: 1px solid #000;
-    margin-top: 30px;
+    margin-top: 1.8em;
     transition: .5s;
 }
 
@@ -227,14 +227,14 @@ html {
     display: flex;
     justify-content: space-between;
     max-width: 70vw;
-    margin: 30px auto;
+    margin: 1.8em auto;
 }
 
 .tecnology {
     width: 300px;
     background-color: #fff;
-    padding: 30px;
-    margin: 0 5px;
+    padding: 1.8em;
+    margin: 0 .4em;
     border-radius: 20px;
     transition: .5s;
 }
@@ -247,14 +247,14 @@ html {
 .icon {
     display: inline-block;
     border-radius: 50%;
-    padding: 10px;
+    padding: .3em;
     font-size: 6rem;
     color: rgb(254, 101, 0);
 }
 
 .card-title {
-    font-size: 24px;
-    margin-bottom: 25px;
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
     font-weight: bolder;
 }
 
@@ -264,9 +264,9 @@ html {
 }
 
 .card-text {
-    margin-top: 20px;
-    font-size: 16px;
-    line-height: 20px;
+    margin-top: 1.25em;
+    font-size: 1rem;
+    line-height: 1.25em;
     font-weight: 600;
 }
 
@@ -279,7 +279,7 @@ html {
 
 .projects .section-title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.2em;
 }
 
 .projects-section {
@@ -290,7 +290,7 @@ html {
 }
 
 .projects-section .file {
-    margin: 10px 20px;
+    margin: .6em 1.3em;
 }
 
 
@@ -320,9 +320,9 @@ html {
     background-color: rgba(0, 0, 0, .8);
     color: salmon;
     width: 100%;
-    padding: 10px;
+    padding: .6em;
     opacity: 0;
-    bottom: -40px;
+    bottom: -2.5em;
     transition: .5s;
 }
 
@@ -340,7 +340,7 @@ html {
 
 .contact .section-title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.2em;
 }
 
 .form-container {
@@ -348,10 +348,11 @@ html {
     margin: auto;
     justify-content: center;
     align-content: center;
+    font-weight: bolder;
 }
 
 .mid-file {
-    margin: 15px 0;
+    margin: .9em 0;
 }
 
 .top-file {
@@ -361,11 +362,14 @@ html {
 
 .contact input,
 textarea {
-    padding: 20px;
+    padding: 1.3em;
     border-radius: 20px;
     border: none;
     border: 1px solid #919191;
+    font-weight: bolder;
+    font-size: 1rem;
 }
+
 
 .top-file input {
     width: 48%;
@@ -381,8 +385,8 @@ textarea {
     margin: auto;
     cursor: pointer;
     transition: .5s;
-    padding: 10px 15px;
-    font-size: 15px;
+    padding: .6em .9em;
+    font-size: 1rem;
     font-weight: bold;
 }
 
